@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "评论列表",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "comment-box": "/components/CommentBox/CommentBox",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more",
+    "comment-masker": "/components/CommentMasker/CommentMasker"
+  }
+}

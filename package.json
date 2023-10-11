@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "marked": "^5.1.0",
+    "marked-gfm-heading-id": "^3.0.8",
+    "marked-mangle": "^1.1.4",
+    "uni-read-pages": "^1.0.5",
+    "uni-simple-router": "^2.0.8-beta.4"
+  },
+  "devDependencies": {
+    "image-webpack-loader": "^6.0.0"
+  }
+}

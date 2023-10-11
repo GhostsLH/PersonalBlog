@@ -1,0 +1,1 @@
+<view><block wx:for="{{articleList}}" wx:for-item="item" wx:for-index="__i0__" wx:key="_id"><list-card vue-id="{{'323b0a6a-1-'+__i0__}}" item="{{item}}" bind:__l="__l"></list-card></block><block wx:if="{{noArticle}}"><view class="no-data">您还没有发布过文章</view></block></view>

@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "navbar": "/components/Navbar/Navbar",
+    "list-item": "/components/ListItem/ListItem"
+  }
+}

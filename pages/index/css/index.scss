@@ -1,0 +1,15 @@
+page{
+	display: flex;
+	height: 100%;
+}
+.home-container{
+	flex: 1;
+	overflow: hidden;
+	box-sizing: border-box;
+	@include flex(flex-start, column);
+	align-items: inherit;
+}
+.list-container{
+	flex: 1;
+	box-sizing: border-box;
+}

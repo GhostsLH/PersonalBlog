@@ -1,0 +1,125 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/follow/follow",
+			"style": {
+				"navigationBarTitleText": "关注",
+				"enablePullDownRefresh": false
+			},
+			"meta":{	//需要登陆才能跳转
+				"needLogin": true
+			}
+		},
+		{
+			"path": "pages/self/self"
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/userInfo/login/login",
+			"style": {
+				"navigationBarTitleText": "用户登录",
+				"enablePullDownRefresh": false
+			},
+			"name":"login"
+
+		}
+	    ,{
+            "path" : "pages/labelAdmin/labelAdmin",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "标签管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/articleDetail/articleDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "文章详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/commentList/commentList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "评论列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/myArticle/myArticle",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的文章",
+                "enablePullDownRefresh": false
+            },
+			"meta": {
+				"needLogin": true
+			}
+        }
+        ,{
+            "path" : "pages/feedback/feedback",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "意见反馈",
+                "enablePullDownRefresh": false
+            },
+			"meta": {
+				"needLogin": true
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "逍遥攥",
+		"navigationBarBackgroundColor": "#f25037",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/home.png",
+				"selectedIconPath": "static/img/home-active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/follow/follow",
+				"iconPath": "static/img/follow.png",
+				"selectedIconPath": "static/img/follow-active.png",
+				"text": "关注"
+			},
+			{
+				"pagePath": "pages/self/self",
+				"iconPath": "static/img/my.png",
+				"selectedIconPath": "static/img/my-active.png",
+				"text": "我的"
+			}
+		]
+	},
+	"uniIdRouter": {},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
